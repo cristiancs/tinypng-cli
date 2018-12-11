@@ -106,6 +106,8 @@ if (argv.v || argv.version) {
           auth: {
             'user': 'api',
             'pass': key
+          },
+            "preserve": ["location", "creation"]
           }
         }, function(error, response, body) {
 
